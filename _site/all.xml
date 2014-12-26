@@ -6,7 +6,7 @@
 	<description>
 		All - for the North American Chapter of the Association for Computational Linguistics: NAACL. 
 	</description>
-	<lastBuildDate>Fri, 26 Dec 2014 14:23:12 -0800</lastBuildDate>
+	<lastBuildDate>Fri, 26 Dec 2014 15:15:38 -0800</lastBuildDate>
 
 	
 <item>
@@ -93,6 +93,16 @@
 </item>
 
 <item>
+	<title>Summer Tutorial 2 - The EM Algorithm</title>
+	<description>
+	&lt;p&gt;In the lab meeting next week, Jun 4th,  We will continue our discussion of the EM algorithm and it&amp;#8217;s applications in Natural Language Processing. The meeting will be at TASC1 9408 from 11:00 to 12:00 (please note: New time).&lt;/p&gt;
+	</description>
+	<guid>//posts/2014-05-30-Summer-Tutorial-2---The-EM-Algorithm</guid>
+	<link>//posts/2014-05-30-Summer-Tutorial-2---The-EM-Algorithm</link>
+	<pubDate>Fri, 30 May 2014 00:00:00 -0700</pubDate>
+</item>
+
+<item>
 	<title>SLT 2014 Call for Papers</title>
 	<description>
 	&lt;p&gt;&lt;span class=&quot;caps&quot;&gt;NAACL&lt;/span&gt; is providing technical co-sponsorship for the &lt;a href=&quot;http://www.slt2014.org&quot;&gt;2014 &lt;span class=&quot;caps&quot;&gt;IEEE&lt;/span&gt; Spoken Language Technology Workshop (&lt;span class=&quot;caps&quot;&gt;SLT&lt;/span&gt; 2014)&lt;/a&gt;, and the &lt;a href=&quot;http://www.slt2014.org/CallForPapers.asp&quot;&gt;Call for Papers&lt;/a&gt; is now available!  (Deadline: July 21, 2014.)&lt;/p&gt;
@@ -100,27 +110,6 @@
 	<guid>//posts/2014-04-16-SLT-2014-Call-for-Papers</guid>
 	<link>//posts/2014-04-16-SLT-2014-Call-for-Papers</link>
 	<pubDate>Wed, 16 Apr 2014 00:00:00 -0700</pubDate>
-</item>
-
-<item>
-	<title>NAACL 2013 Best Talk Award</title>
-	<description>
-	&lt;p&gt;At the &lt;span class=&quot;caps&quot;&gt;NAACL&lt;/span&gt; 2013 conference in Atlanta we recorded all of the main session oral presentations and the tutorials.  You can watch the videos online at &lt;a href=&quot;http://techtalks.tv/naacl/2013/&quot;&gt;techtalks.tv/naacl/&lt;/a&gt; or by following the links in the &lt;a href=&quot;http://aclweb.org/anthology/N/N13/&quot;&gt;&lt;span class=&quot;caps&quot;&gt;NAACL&lt;/span&gt; 2013 page in the &lt;span class=&quot;caps&quot;&gt;ACL&lt;/span&gt; anthology&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The &lt;span class=&quot;caps&quot;&gt;NAACL&lt;/span&gt; Board decided to use the videos to create a Best Talk award.  We nominated the 4 talks got the most votes in the &lt;a href=&quot;2013/post-conference-survey.pdf&quot;&gt;&lt;span class=&quot;caps&quot;&gt;NAACL&lt;/span&gt; 2013 post-conference survey&lt;/a&gt;.  The survey was sent out to conference attendees immediately after the conference, and it included the question &amp;#8220;What was your favorite &lt;b&gt;talk&lt;/b&gt; at the conference?&amp;#8221;.  173 people responded to the survey (25% of all conference goers).&lt;/p&gt;
-&lt;p&gt;The nominees were:&lt;br /&gt;
-&lt;ul&gt;&lt;br /&gt;
-&lt;li&gt;&lt;a href=&quot;http://techtalks.tv/talks/improved-reordering-for-pbsmt-using-sparse-features/58430/&quot;&gt;Colin Cherry &amp;#8220;Improved Reordering for Phrase-Based Translation using Sparse Features&amp;#8221;&lt;/a&gt;&lt;/li&gt;&lt;br /&gt;
-&lt;li&gt;&lt;a href=&quot;http://techtalks.tv/talks/ppdb-the-paraphrase-database/58473/&quot;&gt;Juri Ganitkevitch &amp;#8220;&lt;span class=&quot;caps&quot;&gt;PPDB&lt;/span&gt;: The Paraphrase Database&amp;#8221;&lt;/a&gt;&lt;/li&gt;&lt;br /&gt;
-&lt;li&gt;&lt;a href=&quot;http://techtalks.tv/talks/learning-a-part-of-speech-tagger-from-two-hours-of-annotation/58441/&quot;&gt;Dan Garrette &amp;#8220;Learning a Part-of-Speech Tagger from Two Hours of Annotation&amp;#8221;&lt;/a&gt;&lt;/li&gt;&lt;br /&gt;
-&lt;li&gt;&lt;a href=&quot;http://techtalks.tv/talks/relation-extraction-with-matrix-factorization-and-universal-schemas/58435/&quot;&gt;Sebastian Riedel &amp;#8220;Relation Extraction with Matrix Factorization and Universal Schemas&amp;#8221;&lt;/a&gt;&lt;/li&gt;&lt;/p&gt;
-&lt;/ul&gt;
-&lt;p&gt;We selected the winner by distributing the video recordings of the 4 nominated talks to the &lt;span class=&quot;caps&quot;&gt;NAACL&lt;/span&gt; membership.  160 people watched the videos and voted.  The winner of the &lt;span class=&quot;caps&quot;&gt;NAACL&lt;/span&gt; 2013 Best Talk award is &lt;b&gt;&lt;a href=&quot;http://www.riedelcastro.org&quot;&gt;Sebastian Riedel&lt;/a&gt;&lt;/b&gt; for his talk on &lt;a href=&quot;http://techtalks.tv/talks/relation-extraction-with-matrix-factorization-and-universal-schemas/58435/&quot;&gt;&amp;#8220;Relation Extraction with Matrix Factorization and Universal Schemas&amp;#8221;&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The goal of this award is to recognize &lt;span class=&quot;caps&quot;&gt;NAACL&lt;/span&gt; presenters to put together excellent talks and to promote good scientific communication within our community.  Sebastian’s talk describes an extremely exciting research agenda, and he managed to convey his research in a way that engages the audience and sparks our intellectual curiosity.&lt;/p&gt;
-&lt;p&gt;Congratulations to Sebastian and to all of the Best Talk Award nominees!&lt;/p&gt;
-	</description>
-	<guid>//posts/2014-01-07-NAACL-2013-Best-Talk-award</guid>
-	<link>//posts/2014-01-07-NAACL-2013-Best-Talk-award</link>
-	<pubDate>Tue, 07 Jan 2014 00:00:00 -0800</pubDate>
 </item>
 
 
