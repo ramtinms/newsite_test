@@ -1,3 +1,4 @@
 # baseurl: http://ramtinms.github.io/newsite_test/
 permalink: posts/:year-:month-:day-:title
-markdown: kramdown
+markdown: rdiscount
+#kramdown
