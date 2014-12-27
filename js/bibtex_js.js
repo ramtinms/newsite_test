@@ -695,9 +695,9 @@ this.get_coauthors = function (input,constraints){
 
         }
         if (approved == true){
-         console.log(constraints['LAST']);
+         // console.log(constraints['LAST']);
           if ( constraints['LAST'] != null ){
-              if (last_counter >= constraints['LAST'] ){
+              if (last_counter < constraints['LAST'] ){
                   output.append(tpl);
               }
               last_counter += 1;
