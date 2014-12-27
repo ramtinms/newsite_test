@@ -3,7 +3,7 @@ layout: rss
 title: Publications
 ---
 
-{% bibliography %}
+<!-- {% bibliography %}
 {% for item in bibliography limit:10 %}
 <item>
 	<title>{% if item.title %}{{ item.title }}{% else %}Publication{% endif %}{% if item.year %} ({{ item.year }}){% endif %}</title>
@@ -16,3 +16,4 @@ title: Publications
 </item>
 {% endfor %}
 {% endbibliography %}
+ -->
