@@ -692,8 +692,6 @@ this.get_coauthors = function (input,constraints){
                  }
             }
             if (key == 'LAST'){
-              console.log(value);
-              console.log(last_counter);
                 if (last_counter > value ){
                     approved=false;
                 }
