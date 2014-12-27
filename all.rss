@@ -14,7 +14,7 @@ title: All
 	<pubDate>{{ post.date | date: '%a, %d %b %Y %H:%M:%S %z' }}</pubDate>
 </item>
 {% endfor %}
-
+<!-- 
 {% bibliography %}
 {% for item in bibliography limit:10 %}
 <item>
@@ -27,4 +27,4 @@ title: All
 	<link>{{ site.baseurl }}{{ item.pageurl }}</link>
 </item>
 {% endfor %}
-{% endbibliography %}
+{% endbibliography %} -->
