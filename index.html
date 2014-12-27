@@ -85,11 +85,12 @@ border: 5px solid #FFFFFF;">
         {% endfor %}
         <li><a href="{{ site.baseurl }}/posts/index.html">All</a></li>
     </ul>
-  </div>
+  </div><div class="panel panel-info">
   {% for post in site.posts limit:5 %}
   <h2><a href="{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a> <small class="date">{{ post.date | date_to_string }}</small></h2>
   {{ post.content }}
   {% endfor %}
+  </div>
   </div>
   <div class="col-md-3 visible-sm visible-lg">
   
