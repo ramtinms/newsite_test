@@ -692,23 +692,18 @@ this.get_coauthors = function (input,constraints){
                     approved=false;
                  }
             }
-            if (key == 'LAST' ){
-
-                if (approved == true){
-                  last_counter += 1;
-                
-
-                if (last_counter > value ){
-                    approved=false;
-                }
-              }
-                
-            }
 
         }
         if (approved == true){
           // console.log(entry['AUTHOR']);
-          output.append(tpl);
+          if ( constraints['LAST'] ){
+              if (last_counter > constraints['LAST'] ){
+                  output.append(tpl);
+              }
+              last_counter += 1;
+          }
+          else {
+            output.append(tpl);
         }
 
       }
