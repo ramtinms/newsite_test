@@ -696,11 +696,12 @@ this.get_coauthors = function (input,constraints){
 
                 if (approved == true){
                   last_counter += 1;
-                }
+                
 
                 if (last_counter > value ){
                     approved=false;
                 }
+              }
                 
             }
 
