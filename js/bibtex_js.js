@@ -437,6 +437,7 @@ this.get_coauthors = function (input,constraints){
                     author_found = true;
                   }
                 });
+
                  if (author_found == false){
                     approved=false;
                  }
@@ -691,12 +692,16 @@ this.get_coauthors = function (input,constraints){
                     approved=false;
                  }
             }
-            if (key == 'LAST'){
+            if (key == 'LAST' ){
+
+                if (approved == true){
+                  last_counter += 1;
+                }
+
                 if (last_counter > value ){
                     approved=false;
                 }
-
-                last_counter += 1;
+                
             }
 
         }
