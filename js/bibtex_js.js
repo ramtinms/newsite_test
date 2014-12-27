@@ -704,6 +704,7 @@ this.get_coauthors = function (input,constraints){
           }
           else {
             output.append(tpl);
+          }
         }
 
       }
