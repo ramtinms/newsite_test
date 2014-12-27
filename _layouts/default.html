@@ -104,6 +104,7 @@ $(function () {
 bibtex_reader = new BibtexDisplay()
 // TODO better structure for constraints
 constraints = {};
+constraints['LAST'] = 5;
 
 function get_years(){
   years = bibtex_reader.get_years($("#bibtex_input").val());

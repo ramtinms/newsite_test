@@ -603,6 +603,7 @@ this.get_coauthors = function (input,constraints){
     // iterate over bibTeX entries
     var entries = b.getEntries();
     // console.log(entries);
+    var last_counter = 0;
     for (var entryKey in entries) {
       var entry = entries[entryKey];
       
@@ -689,6 +690,13 @@ this.get_coauthors = function (input,constraints){
                  if (author_found == false){
                     approved=false;
                  }
+            }
+            if (key == 'LAST'){
+                if (last_counter > constraint[key] ){
+                    approved=false;
+                }
+
+                last_counter += 1;
             }
 
         }
