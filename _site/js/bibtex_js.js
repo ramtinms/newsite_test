@@ -437,6 +437,7 @@ this.get_coauthors = function (input,constraints){
                     author_found = true;
                   }
                 });
+
                  if (author_found == false){
                     approved=false;
                  }
@@ -603,6 +604,7 @@ this.get_coauthors = function (input,constraints){
     // iterate over bibTeX entries
     var entries = b.getEntries();
     // console.log(entries);
+    var last_counter = 0;
     for (var entryKey in entries) {
       var entry = entries[entryKey];
       
@@ -693,8 +695,16 @@ this.get_coauthors = function (input,constraints){
 
         }
         if (approved == true){
-          // console.log(entry['AUTHOR']);
-          output.append(tpl);
+         // console.log(constraints['LAST']);
+          if ( constraints['LAST'] != null ){
+              if (last_counter <= constraints['LAST'] ){
+                  output.append(tpl);
+              }
+              last_counter += 1;
+          }
+          else {
+            output.append(tpl);
+          }
         }
 
       }
